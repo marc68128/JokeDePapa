@@ -375,7 +375,81 @@ namespace App4.Model
             new Joke
             {
                 Sentence = "Généralement quand on parle de Mozart il est pas là, mais quand on ouvre la porte du frigo, Mozzarella."
-            }
+            },
+            new Joke
+            {
+                Sentence = "C'est deux spermatozoïdes qui discutent : \n- Dis, c'est encore loin les ovaires ? \n- Tu parles, on n'est qu'aux amydales."
+            }, 
+            new Joke
+            {
+                Question = "C'est l'histoire du ptit dej, tu la connais ?",
+                Answer = "Pas de bol."
+            },
+            new Joke
+            {
+                Sentence = "C'est l'histoire de l'eunuque décapité, une histoire sans queue ni tête."
+            },
+            new Joke
+            {
+                Sentence = "C'est l'histoire d'un pingouin qui respire par les fesses, un jour il s’assoit et il meurt."
+            },
+            new Joke
+            {
+                Question = "Qu est ce qui fait toin toin ?",
+                Answer = "Un tanard."
+            },
+            new Joke
+            {
+                Question = "Tu connais le cri du spermatozoïde ?",
+                Answer = "Bah la prochaine fois au lieu d'avaler tu croques."
+            },
+            new Joke
+            {
+                Question = "Comment appelle-t-on un chien qui n'a pas de pattes ? ",
+                Answer = "On l'appelle pas, on va le chercher..."
+            },
+            new Joke
+            {
+                Sentence = "Deux œufs discutent : \n-pourquoi t'es tout vert et aussi poilu ? \n-parce que j'suis un kiwi connard."
+            },
+            new Joke
+            {
+                Question = "Un mec rentre dans un café.",
+                Answer = "PLOUF!!!"
+            },
+            new Joke
+            {
+                Question = "Pourquoi il y a pas de ballon sur le plateau de question pour un champion ?",
+                Answer = "Parce que Julien Lepers."
+            },
+            new Joke
+            {
+                Question = "Avec quoi ramasse t'on la papaye ?",
+                Answer = "Avec une foufourche."
+            },
+            new Joke
+            {
+                Sentence = "C'est l'histoire d'une brioche qui n'allait jamais aux sports d'hiver parce qu'elle ne savait Pasquier."
+            },
+            new Joke
+            {
+                Question = "Quelle est la différence entre une femme et un doberman ?",
+                Answer = "Le prix du collier."
+            },
+            new Joke
+            {
+                Sentence = "C'est un américain est un arabe qui discutent. L'américain dit tu me donne 2 planches et je te fais un bateau. L'arabe repond tu me donne ta soeur est je te fait l'équipage "
+            },
+            new Joke
+            {
+                Question = "Qu'est ce qu'un bossu sans bras ni jambes ?",
+                Answer = "Une madeleine."
+            },
+            new Joke
+            {
+                Question = "Que fait une blonde sous la douche ?",
+                Answer = "Elle sort sont parapluie."
+            },
         };
 
         public Joke GetRandom()
