@@ -450,6 +450,74 @@ namespace App4.Model
                 Question = "Que fait une blonde sous la douche ?",
                 Answer = "Elle sort sont parapluie."
             },
+            new Joke
+            {
+                Question = "Tu sais comment faire pour qu'un fromage ne coule pas ?",
+                Answer = "Faut lui apprendre à nager."
+            },
+            new Joke
+            {
+                Question = "Tu sais quel cri fait un poussin de 200 Kilos ?",
+                Answer = "PPIIIIIOOOOUUUU PPIIIIIOOOUUUU !!!!!!"
+            },
+            new Joke
+            {
+                Question = "Tu sais ce que fait une fraise sur un cheval ?",
+                Answer = "Tagada, tagada..."
+            },
+            new Joke
+            {
+                Question = "Tu sais pourquoi j'ai appelé mon pénis bidou ?",
+                Answer = "Parce qu'à chaque fois que je fais pipi je scoubidou."
+            },
+            new Joke
+            {
+                Question = "Tu sais ce que c'est un chien qui vend des lunettes ?",
+                Answer = "Un optichien."
+            },
+            new Joke
+            {
+                Question = "Qu'est-ce qu'une baguette avec une bousole ?",
+                Answer = "Un pain perdu."
+            },
+            new Joke
+            {
+                Question = "Qu'est-ce qu'un nem avec des écouteurs ?",
+                Answer = "Un n'mp3"
+            },
+            new Joke
+            {
+                Question = "Qu'est-ce qu'il se passe si tu manges un pépito à minuit ?",
+                Answer = "ça devient un pépitard."
+            },
+            new Joke
+            {
+                Question = "Est-ce qu'une poule peut parler anglais ?",
+                Answer = "Yes, chicken."
+            },
+            new Joke
+            {
+                Question = "Qu'est-ce qu'un canif ?",
+                Answer = "Un petit fien."
+            },
+            new Joke
+            {
+                Question = "Que font les dynosaure quand ils n'arrivent pas à se mettre d'accord ?",
+                Answer = "Un tirageosaure."
+            },
+            new Joke
+            {
+                Sentence = "C'est l'histoire d'un mec qui à un pote qui s'appelle Niette, une jour il le croise dans la rue et lui fait : \"Heyyy, coucou Niette !\""
+            },
+            new Joke
+            {
+                Question = "C'est quoi le point commun entre un roi et un taureau ?",
+                Answer = "Ils rentrent tous le deux dans la reine."
+            },
+            new Joke
+            {
+                Sentence = "On ne dit pas Hélène Ségara mais Hélène c'est perdu."
+            },
         };
 
         public Joke GetRandom()

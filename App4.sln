@@ -17,7 +17,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App4.Windows", "App4\App4.W
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		App4\App4\App4.projitems*{0fff2f07-50fa-496e-ae81-dcc8a125bc96}*SharedItemsImports = 4
 		App4\App4\App4.projitems*{172aa133-4dca-4568-b98e-f0bb3c70db26}*SharedItemsImports = 13
 		App4\App4\App4.projitems*{cb42702e-683c-4927-b5cc-d50c1e1606a6}*SharedItemsImports = 4
 	EndGlobalSection
