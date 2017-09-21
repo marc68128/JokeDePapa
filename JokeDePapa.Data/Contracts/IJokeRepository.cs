@@ -6,6 +6,7 @@ namespace JokeDePapa.Data.Contracts
     public interface IJokeRepository
     {
         IEnumerable<Joke> GetAll();
-        int Create(Joke joke); 
+        int Create(Joke joke);
+        void RemoveAll(); 
     }
 }

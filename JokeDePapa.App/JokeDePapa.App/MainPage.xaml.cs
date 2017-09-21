@@ -3,40 +3,31 @@ using JokeDePapa.Data.Contracts;
 using JokeDePapa.Data.Repositories;
 using JokeDePapa.Domain.Model;
 using Xamarin.Forms;
+using JokeDePapa.Service.Contracts;
 
 namespace JokeDePapa.App
 {
     public partial class MainPage : ContentPage
-	{
-	    private IJokeRepository _jokeRepo; 
-		public MainPage()
-		{
-			InitializeComponent();
+    {
+        private readonly IJokeService _jokeService;
+        public MainPage()
+        {
+            InitializeComponent();
+            _jokeService = DependencyService.Get<IJokeService>();
 
-		    try
-		    {
-		        _jokeRepo = DependencyService.Get<IJokeRepository>();
-		        _jokeRepo.Create(new Joke {Question = "TestQ", Answer = "TestA"});
-		        var res = _jokeRepo.GetAll();
-		    }
-		    catch (Exception e)
-		    {
-		        Console.WriteLine(e);
-		    }
-
-		    //DisplayJoke(_jokeRepo.GetRandom());
-		}
-
-	    private void NextJoke(object sender, EventArgs e)
-	    {
-            //DisplayJoke(_jokeRepo.GetRandom());
+            DisplayJoke(_jokeService.GetRandomJoke());
         }
 
-	    private void DisplayJoke(Joke j)
-	    {
+        private void NextJoke(object sender, EventArgs e)
+        {
+            DisplayJoke(_jokeService.GetRandomJoke());
+        }
+
+        private void DisplayJoke(Joke j)
+        {
             QuestionLabel.Text = j.Question;
-	        AnswerLabel.Text = j.Answer;
-	        SentenceLabel.Text = j.Sentence;
-	    }
-	}
+            AnswerLabel.Text = j.Answer;
+            SentenceLabel.Text = j.Sentence;
+        }
+    }
 }

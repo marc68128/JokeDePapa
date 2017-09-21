@@ -193,6 +193,10 @@
       <Project>{827CBB3F-C173-43AD-8DEF-6366A63EF775}</Project>
       <Name>JokeDePapa.Domain</Name>
     </ProjectReference>
+    <ProjectReference Include="..\..\JokeDePapa.Service\JokeDePapa.Service.csproj">
+      <Project>{BE60E215-6BC4-4362-8984-8249D45ECA6C}</Project>
+      <Name>JokeDePapa.Service</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="..\App4\App4.projitems" Label="Shared" Condition="Exists('..\App4\App4.projitems')" />
   <Import Project="..\JokeDePapa.App\App4.projitems" Label="Shared" />
