@@ -1,7 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using JokeDePapa.Data.Contracts;
-using JokeDePapa.Data.Repositories;
 using JokeDePapa.Domain.Model;
 using JokeDePapa.Service.Contracts;
 using JokeDePapa.Service.Services;
@@ -19,15 +19,23 @@ namespace JokeDePapa.Service.Services
         {
             _jokeRepo = DependencyService.Get<IJokeRepository>();
         }
+
         public JokeService(IJokeRepository jokeRepo)
         {
-            _jokeRepo = jokeRepo ?? DependencyService.Get<IJokeRepository>(); 
+            _jokeRepo = jokeRepo ?? DependencyService.Get<IJokeRepository>();
 
         }
 
-        public Joke GetRandomJoke()
+        public Joke GetRandomJoke(List<int> excludedJokesIds = null)
         {
             var all = _jokeRepo.GetAll().ToList();
+
+            if (excludedJokesIds != null)
+                all = all.Where(j => !excludedJokesIds.Contains(j.Id)).ToList();
+
+            if (all.Count == 0)
+                return null;
+
             return all.ElementAt(new Random().Next(0, all.Count - 1));
         }
     }

@@ -27,20 +27,6 @@ namespace JokeDePapa.App
 		{
 			// Handle when your app resumes
 		}
-
-        private string CreateDatabase(string path)
-        {
-            try
-            {
-                var connection = new SQLiteAsyncConnection(path);
-                connection.CreateTableAsync<Joke>();
-                return "Database created";
-            }
-            catch (SQLiteException ex)
-            {
-                return ex.Message;
-            }
-        }
     }
 }
 
