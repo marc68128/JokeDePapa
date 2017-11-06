@@ -519,6 +519,76 @@ namespace JokeDePapa.Data.Utils
             {
                 Sentence = "On ne dit pas Hélène Ségara mais Hélène c'est perdu."
             },
+            new Joke
+            {
+                Question = "A quoi sert un archipel ?",
+                Answer = "A creuser des archi-trous."
+            },
+            new Joke
+            {
+                Question = "Comment amuser une blonde toute une journée ?",
+                Answer = "Il faut lui donner une feuille avec la phrase \"retournez la feuille\" des deux cotés."
+            },
+            new Joke
+            {
+                Question = "Comment faire pleurer un plombier ?",
+                Answer = "En tuant toute sa famille."
+            },
+            new Joke
+            {
+                Question = "Pourquoi les hérissons traversent-ils la route ? ",
+                Answer = "Pour montrer ce qu'ils ont dans le ventre."
+            },
+            new Joke
+            {
+                Question = "Que se passe-t-il quand deux poisson se diputent ? ",
+                Answer = "Le ton monte."
+            },
+            new Joke
+            {
+                Question = "Que demande un indou à la pharmacie ? ",
+                Answer = "Un douliprane."
+            },
+            new Joke
+            {
+                Question = "Un noir va au toilette et il en ressort blanc, sais-tu pourquoi ? ",
+                Answer = "Parce qu'il a chier ça race."
+            },
+            new Joke
+            {
+                Question = "Sais-tu ce qu'on fait au voleur de salade ? ",
+                Answer = "On laitue."
+            },
+            new Joke
+            {
+                Question = "Sais-tu ce qu'on fait au voleur de salade ? ",
+                Answer = "On laitue."
+            },
+            new Joke
+            {
+                Question = "Pourquoi n'y a-t-il plus de Mamouth ? ",
+                Answer = "Parce qu'il y'a plus de Papouth."
+            },
+            new Joke
+            {
+                Question = "Où est fabriqué le viagra ? ",
+                Answer = "Au boutquistant."
+            },
+            new Joke
+            {
+                Question = "Comment appel-t-on une frite enceinte ? ",
+                Answer = "Une pomme de terre sauté."
+            },
+            new Joke
+            {
+                Question = "Pourquoi une voyante ne peut pas avoir d'enfant ? ",
+                Answer = "Parce que son mari à des boules de crystal."
+            },
+            new Joke
+            {
+                Question = "C'est quoi le point commun entre un roi et un taurreau ? ",
+                Answer = "Tous les deux ils rentrent dans l'arène (la reine)."
+            },
         };
     }
 }
