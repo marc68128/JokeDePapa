@@ -589,6 +589,36 @@ namespace JokeDePapa.Data.Utils
                 Question = "C'est quoi le point commun entre un roi et un taurreau ? ",
                 Answer = "Tous les deux ils rentrent dans l'arène (la reine)."
             },
+            new Joke
+            {
+                Question = "Quelle est la déesse du WI-FI ? ",
+                Answer = "La déesse L."
+            },
+            new Joke
+            {
+                Question = "Quel est le prénom d'un noir sur une pomme de terre ?",
+                Answer = "Jean, parce que Jean négro sur la patate."
+            },
+            new Joke
+            {
+                Question = "Qu'est ce qui est pire qu'un chien qui a le sida ?",
+                Answer = "Le mec qui lui a refilé."
+            },
+            new Joke
+            {
+                Question = "Que fait un cendrier devant un ascenseur ?",
+                Answer = "Il veut des cendres."
+            },
+            new Joke
+            {
+                Question = "Pourquoi les bouteille de bière coulles ?",
+                Answer = "Parce qu'elle ne savent panaché"
+            },
+            new Joke
+            {
+                Question = "Que fait un geek quand il descend du métro ?",
+                Answer = "Il libère la RAM"
+            }
         };
     }
 }
